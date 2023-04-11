@@ -1,0 +1,8 @@
+<!--components/lb-bar/lb-bar.wxml-->
+<view class="search-bar" style="height:{{barInfo.height}}px;padding-top:{{barInfo.menuTop}}px;">
+  <view class="search-wrapper" style="height:{{barInfo.menuHeight}}px;" bindtap="bindSearch">
+    <image class="search-image" style="height:{{barInfo.menuHeight - 15}}px;width:{{barInfo.menuHeight -15}}px" src="/images/search.png"></image>
+    <view class="search-text" style="font-size:{{barInfo.menuHeight - 15}}px">搜索</view>
+  </view>
+  <view class="bar-title" style="height:{{barInfo.menuHeight}}px">首页</view>
+</view>

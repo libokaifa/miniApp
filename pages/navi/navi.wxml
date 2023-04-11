@@ -1,0 +1,18 @@
+<!--pages/navi/navi.wxml-->
+<view class="top-line"></view>
+
+<view class="navi">
+  <scroll-view class="navi-left" scroll-y="{{true}}" scroll-into-view="{{toIndex}}" scroll-with-animation="{{true}}">
+    <view class="navi-left-name" wx:for="{{naviData}}" wx:key="index" bindtap="bindName" data-index="{{index}}" style="{{index == selectIndex? 'background:#e6e6e6;color:#fe6243':''}}" id="to{{index}}">
+      {{item.name}}
+    </view>
+  </scroll-view>
+
+  <view class="line"></view>
+
+  <scroll-view class="navi-right" scroll-y="{{true}}">
+    <leo-button hotkeyList="{{naviData[selectIndex].articles}}" bindkey="bindTitle" isTitle="{{true}}"
+    leo-border="leo-border" leo-hover="leo-hover"/>
+  </scroll-view>
+
+</view>

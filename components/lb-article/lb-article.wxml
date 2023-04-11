@@ -1,0 +1,16 @@
+<!--components/lb-article/lb-article.wxml-->
+<wxs src="../../app.wxs" module="app"></wxs>
+<view class="article-wrapper" wx:for="{{articleList.datas}}" wx:key="index" 
+bindtap="bindArticle" data-url="{{item.link}}"
+>
+<view class="article-info">
+  <view class="author">{{item.author}}</view>
+  <view class="article-text">{{item.chapterName}}/{{item.superChapterName}}</view>
+</view>
+
+<view class="title">{{app.filterTag(item.title)}}</view>
+  <view class="article-info">
+    <view class="article-text">{{item.niceDate}}</view>
+    <image class="collect" src="{{item.collect?'/images/collect_selector.png':'/images/collect.png'}}" catchtap="catchCollect"></image>
+  </view>
+</view>

@@ -1,0 +1,37 @@
+/* components/lb-article/lb-article.wxss */
+
+.article-wrapper {
+  border-top: 10rpx solid #f5f5f5;
+  padding: 20rpx;
+}
+
+.article-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.author {
+  font-size: 22rpx;
+  color: white;
+  border: 1px solid #ff8635;
+  background: #ff8635;
+  border-radius: 8rpx;
+  padding: 2rpx 5rpx;
+}
+
+.article-text {
+  color: #666;
+  font-size: 22rpx;
+}
+
+.title {
+  font-size: 32rpx;
+  color: #2c2c2c;
+  padding: 20rpx;
+}
+
+.collect{
+  width: 50rpx;
+  height: 50rpx;
+}

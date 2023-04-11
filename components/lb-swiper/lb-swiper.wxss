@@ -1,0 +1,9 @@
+/* components/lb-swiper/lb-swiper.wxss */
+swiper{
+  height: 500rpx;
+}
+
+image{
+  width: 100%;
+  height: 100%;
+}

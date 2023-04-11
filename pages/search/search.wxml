@@ -1,0 +1,21 @@
+<!--pages/search/search.wxml-->
+<view class="box">
+<view class="itemView">
+</view>
+<view class="itemView1">
+</view>
+<view class="itemView2">
+</view>
+<view class="itemView">
+</view>
+<view class="itemView1">
+</view>
+<view class="itemView2">
+</view>
+<view class="itemView">
+</view>
+<view class="itemView1">
+</view>
+<view class="itemView2">
+</view>
+</view>

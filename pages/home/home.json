@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "lb-bar":"/components/lb-bar/lb-bar",
+    "lb-swiper": "/components/lb-swiper/lb-swiper",
+    "lb-article": "/components/lb-article/lb-article"
+  },
+  "enablePullDownRefresh":true,
+  "navigationStyle":"custom"
+}

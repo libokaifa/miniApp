@@ -1,0 +1,7 @@
+<!--pages/home.wxml-->
+<lb-bar barInfo="{{barInfo}}"  bindtap="bindSearch"></lb-bar>
+<view style="padding-top: {{barInfo.height}}">
+  <lb-swiper banner="{{banner}}"></lb-swiper>
+  <lb-article articleList="{{articleList}}"/>
+</view>
+

@@ -1,0 +1,20 @@
+/* components/lb-button/lb-button.wxss */
+/* components/leo-button/leo-button.wxss */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10rpx;
+}
+
+.hotkey {
+  /* border: 1rpx solid #fe6243; */
+  border-radius: 30rpx;
+  padding: 5rpx 20rpx;
+  margin: 10rpx 15rpx;
+  font-size: 30rpx;
+}
+
+/* .hover {
+  background: #fe6243;
+} */

@@ -1,0 +1,95 @@
+/* pages/user/user.wxss */
+
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.user {
+  display: flex;
+  height: 270rpx;
+  background: #fe6243;
+}
+
+.user-head {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  background: white;
+  border-radius: 50%;
+}
+
+.user-login {
+  height: 56rpx;
+  border: 2rpx solid#333;
+  border-radius: 56rpx;
+  line-height: 56rpx;
+  font-size: 28rpx;
+  padding: 0 30rpx;
+  margin-top: 82rpx;
+  margin-left: 30rpx;
+}
+
+.user-name {
+  height: 56rpx;
+  line-height: 56rpx;
+  font-size: 40rpx;
+  margin-top: 82rpx;
+  margin-left: 30rpx;
+}
+
+.list-item {
+  display: flex;
+  padding: 0 30rpx;
+  height: 120rpx;
+  align-items: center;
+}
+
+.list-item image {
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.list-item view {
+  flex: 1;
+  margin-left: 20rpx;
+  font-size: 32rpx;
+}
+
+.line {
+  height: 1px;
+  background: #e5e5e5;
+  width: 90%;
+  margin-left: 30rpx;
+}
+
+.line-bold {
+  height: 8px;
+  background: #f5f5f5;
+}
+
+.line-bottom {
+  flex: 1;
+  background: #f5f5f5;
+}
+
+.unlogin {
+  position: absolute;
+  bottom: 0rpx;
+  margin-bottom: 40rpx;
+  align-self: center;
+  background: #fe6243;
+  width: 80%;
+  height: 80rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+}
+
+.hover {
+  background: #db553a;
+}

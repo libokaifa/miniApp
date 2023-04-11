@@ -1,0 +1,46 @@
+/* pages/login/login.wxss */
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30%;
+  align-items: center;
+}
+
+.text-input {
+  width: 80%;
+  height: 80rpx;
+  border-bottom: 1rpx solid #222;
+  font-size: 32rpx;
+}
+
+.text-register {
+  width: 80%;
+  text-align: right;
+  margin-top: 30rpx;
+  text-decoration: underline;
+}
+
+.login {
+  background: #fe6243;
+  width: 80%;
+  height: 80rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: white;
+  margin-top: 50rpx;
+}
+
+.hover{
+  background: #db553a;
+}
+
+.wechat-image {
+  width: 60rpx;
+  height: 60rpx;
+  border: 1px solid seagreen;
+  border-radius: 50%;
+  padding: 20rpx;
+  margin-top: 30rpx;
+}

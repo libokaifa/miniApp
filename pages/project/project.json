@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "leo-project": "/components/lb-project/lb-project"
+  },
+  "navigationBarTitleText": "项目"
+}

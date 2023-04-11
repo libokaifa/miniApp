@@ -1,0 +1,11 @@
+<!--pages/register/register.wxml-->
+
+<view class="register-wrapper">
+
+  <input class="text-input" placeholder="请输入用户名" maxlength="20" bindinput="bindNameInput"></input>
+  <input class="text-input" placeholder="请输入密码" password="{{true}}" maxlength="20" bindinput="bindPwdInput"></input>
+  <input class="text-input" placeholder="请确认密码" password="{{true}}" maxlength="20" bindinput="bindRePwdInput"></input>
+
+  <view class="register" bindtap="bindRegister" hover-class="hover" hover-start-time="0" hover-stay-time="100">注册</view>
+
+</view>

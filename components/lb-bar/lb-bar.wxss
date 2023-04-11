@@ -1,0 +1,39 @@
+/* components/lb-bar/lb-bar.wxss */
+.search-bar {
+  background: white;
+  display: flex;
+  flex-direction: row;
+  /* 固定搜索栏 */
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+   z-index: 100;
+}
+
+.search-wrapper {
+  display: flex;
+  flex-direction: row;
+  background: #e5e5e5;
+  border-radius: 100rpx;
+  margin-left: 20rpx;
+  align-items: center;
+  /* 指定元素的堆叠顺序 */
+  z-index: 80;
+}
+
+.search-image {
+  margin-left: 20rpx;
+}
+
+.search-text {
+  margin-left: 20rpx;
+  margin-right: 30rpx;
+  color: #999;
+}
+
+.bar-title {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  align-self: center;
+}

@@ -1,0 +1,13 @@
+<!--components/lb-project/lb-project.wxml-->
+<view class="project-item" wx:for="{{articleList.datas}}" wx:key="index" bindtap="bindArticle" data-url="{{item.link}}">
+  <image class="project-picture" src="{{item.envelopePic}}"></image>
+  <view class="project-content">
+    <view class="title">{{item.title}}</view>
+    <view class="desc">{{item.desc}}</view>
+    <view class="bottom">
+      <image class="collect" src="{{item.collect?'/images/collect_selector.png':'/images/collect.png'}}" catchtap="catchCollect"></image>
+      <view class="niceDate">{{item.niceDate}}</view>
+      <view class="author">{{item.author}}</view>
+    </view>
+  </view>
+</view>

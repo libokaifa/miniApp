@@ -1,0 +1,7 @@
+<!--components/lb-button/lb-button.wxml-->
+<view class="content">
+
+<view class="hotkey leo-border" wx:for="{{hotkeyList}}" wx:key="index" bindtap="bindHotkey" data-link="{{item.link}}" data-content="{{item.name}}" hover-class="leo-hover" hover-start-time="0" hover-stay-time="0">
+  {{isTitle?item.title:item.name}}</view>
+
+</view>

@@ -1,0 +1,38 @@
+<!--pages/user/user.wxml-->
+<view class="user-wrapper">
+
+  <view class="user">
+
+    <image class="user-head" src="{{head}}"bindtap="bindHead"></image>
+    <view class="user-login" wx:if="{{!userInfo}}" bindtap="bindLogin">登录/注册</view>
+    <view class="user-name" wx:if="{{userInfo}}">{{userInfo.username}}</view>
+
+  </view>
+
+  <view class="list-item">
+    <image src="/images/user_collect.png"></image>
+    <view>我的收藏</view>
+    <image src="/images/ic_arrow.png"></image>
+  </view>
+
+  <view class="line"></view>
+
+  <view class="list-item">
+    <image src="/images/user_collect.png"></image>
+    <view>知识体系</view>
+    <image src="/images/ic_arrow.png"></image>
+  </view>
+
+  <view class="line-bold"></view>
+
+  <view class="list-item">
+    <image src="/images/user_collect.png"></image>
+    <view>关于我们</view>
+    <image src="/images/ic_arrow.png"></image>
+  </view>
+
+  <view class="line-bottom"></view>
+
+  <view class="unlogin" bindtap="bindUnlogin" hover-class="hover" hover-start-time="0" hover-stay-time="100">退出登录</view>
+
+</view>

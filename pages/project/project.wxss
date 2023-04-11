@@ -1,0 +1,33 @@
+/* pages/project/project.wxss */
+
+.project {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.category {
+  white-space: nowrap;
+  height: 60rpx;
+}
+
+.category-item {
+  display: inline-block;
+  line-height: 56rpx;
+  margin: 0 24rpx;
+  font-size: 28rpx;
+  color: #666;
+}
+
+.active {
+  border-bottom: 5rpx solid #fe6243;
+  color: #fe6243;
+}
+
+.project-swiper {
+  flex: 1;
+}
+
+.project-list {
+  height: 100%;
+}
